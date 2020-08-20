@@ -1,0 +1,96 @@
+body{
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.neo-box{
+  background: #fff;
+  margin: auto;
+  border-radius: 12px;
+  border: 3px solid #f7f7f7;
+  box-shadow: -5px -5px 10px rgba(230, 225, 225, 0.96), 5px 5px 10px rgb(255,255,255) ;
+  padding: 20px;
+
+}
+
+table{
+  font-family: cursive;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+table thead{
+  text-align: center;
+}
+table tbody tr td input{
+  width: 95%;
+  border:1px solid turquoise;
+  border-radius: 6px;
+}
+table tbody tr td{
+  color: #1d4a7a;
+  font-weight: 400;
+}
+.create{
+  padding: 5px 10px ;
+  background: linear-gradient(45deg, #1d4a7a, rgb(130, 238, 233));
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  /* font-style: italic; */
+  font-family: cursive;
+}
+.create:hover{
+  cursor: pointer;
+  /* padding: 6px 12px; */
+  background: linear-gradient(30deg, #274f79, rgb(68, 153, 147));
+}
+.save{
+  padding: 5px 10px ;
+  margin: 2px;
+  background: linear-gradient(45deg, #078b59, rgb(130, 238, 233));
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  /* font-style: italic; */
+  font-family: cursive;
+}
+.save:hover{
+  cursor: pointer;
+  /* padding: 6px 12px; */
+  background: linear-gradient(30deg, #55f088, rgb(79, 170, 164));
+}
+.update{
+  padding: 5px 10px ;
+  margin: 2px;
+  background: linear-gradient(45deg, #b520f0, rgb(104, 143, 252));
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  /* font-style: italic; */
+  font-family: cursive;
+}
+.update:hover{
+  cursor: pointer;
+  /* padding: 6px 12px; */
+  background: linear-gradient(30deg, #8d13bd, rgb(30, 70, 182));
+}
+.delete{
+  padding: 5px 10px ;
+  margin: 2px;
+  background: linear-gradient(45deg, #d40606, rgb(235, 110, 110));
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  /* font-style: italic; */
+  font-family: cursive;
+}
+.delete:hover{
+  cursor: pointer;
+  /* padding: 6px 12px; */
+  background: linear-gradient(30deg, #db0a0a, rgb(224, 37, 37));
+}
+.hide{
+  display: none;
+}
